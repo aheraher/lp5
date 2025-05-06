@@ -40,7 +40,7 @@ void average_reduction(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         sum += arr[i];
     }
-    cout << "Average: " << (double)sum / (n - 1) << endl;
+    cout << "Average: " << (double)sum / n  << endl;
 }
 
 int main() {
